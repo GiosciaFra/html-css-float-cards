@@ -37,8 +37,12 @@ section {
     display: inline-block;
 }
 
-div {
+.card {
     background-color: rgb(15, 14, 23);
+}
+
+.description{
+
 }
 
 
@@ -51,10 +55,11 @@ div {
 
     float: left;
 
+    padding: 20px;;
     
 
 }
 
 .row .column img{
-    width: 100px;
+    width: 80px;
 }
