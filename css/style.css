@@ -16,7 +16,10 @@ body {
 }
 
 h1 {
+    margin-bottom: 2em;
     color: rgb(229, 49, 112);
+    font-weight: 900;
+    text-align: center;
 }
 
 .container {
@@ -24,6 +27,21 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 }
+
+section {
+    padding: 50px;
+}
+
+.description{
+    color: white;
+    display: inline-block;
+}
+
+div {
+    background-color: rgb(15, 14, 23);
+}
+
+
 
 
 .row .column{
@@ -33,4 +51,10 @@ h1 {
 
     float: left;
 
+    
+
+}
+
+.row .column img{
+    width: 100px;
 }
