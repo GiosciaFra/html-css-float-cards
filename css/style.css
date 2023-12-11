@@ -38,6 +38,8 @@ section {
     padding: 50px;
 }
 
+
+
 .description{
     color: white;
     display: inline-block;
@@ -48,6 +50,7 @@ section {
     background-color: rgb(15, 14, 23);
     background-size: cover;
     box-shadow: 3px 3px 3px 3px rgb(212, 209, 209);
+    
 }
 
 .info {
@@ -79,15 +82,20 @@ section {
 
 
 .name, .profession, .email{
-    padding: 6px;
+    padding: 4px;
 }
 
 .name {
     font-weight: 900;
     font-size: larger;
+    text-transform: uppercase;
 }
 
 .email a {
     text-decoration: none;
     color: rgb(67, 170, 208);
+}
+
+img {
+    display: block;
 }
